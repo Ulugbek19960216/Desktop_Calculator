@@ -4,13 +4,11 @@
 
 #ifndef Unit2H
 #define Unit2H
-//---------------------------------------------------------------------------
 #include <System.Classes.hpp>
 #include <Vcl.Controls.hpp>
 #include <Vcl.StdCtrls.hpp>
 #include <Vcl.Forms.hpp>
 #include <Vcl.ExtCtrls.hpp>
-//---------------------------------------------------------------------------
 class TForm2 : public TForm
 {
 __published:	// IDE-managed Components
@@ -47,20 +45,19 @@ private:	// User declarations
 public:		// User declarations
 	__fastcall TForm2(TComponent* Owner);
 };
-//---------------------------------------------------------------------------
 extern PACKAGE TForm2 *Form2;
-//---------------------------------------------------------------------------
 #endif
 
 # Unit_2.cpp file source code: 
-//---------------------------------------------------------------------------
+
 // Header includes and pragma directives
 #include <vcl.h>
 #pragma hdrstop
 
 // Include the header file for the form
 #include "Unit2.h"
-//---------------------------------------------------------------------------
+
+
 
 #pragma package(smart_init)
 #pragma resource "*.dfm"
@@ -70,14 +67,13 @@ TForm2 *Form2;
 // Declare variables for calculations
 Double entry1, entry2, result;
 String operates;
-//---------------------------------------------------------------------------
+
 
 // Constructor for the form
 __fastcall TForm2::TForm2(TComponent* Owner)
 	: TForm(Owner)
 {
 }
-//---------------------------------------------------------------------------
 
 // Event handler for numeric buttons
 void __fastcall TForm2::ClickNumeric(TObject *Sender)
@@ -131,7 +127,6 @@ void __fastcall TForm2::btnEqualsClickFunction(TObject *Sender)
 	// Display the result
 	txtResult->Text = result;
 }
-//---------------------------------------------------------------------------
 
 // Event handler for the dot button
 void __fastcall TForm2::btnDotClick(TObject *Sender)
@@ -141,7 +136,7 @@ void __fastcall TForm2::btnDotClick(TObject *Sender)
 		txtResult->Text = txtResult->Text + ".";
     }
 }
-//---------------------------------------------------------------------------
+
 
 // Event handler for the backspace button
 void __fastcall TForm2::btnBackSpaceClick(TObject *Sender)
@@ -157,7 +152,7 @@ void __fastcall TForm2::btnBackSpaceClick(TObject *Sender)
         txtResult->Text = del;
     }
 }
-//---------------------------------------------------------------------------
+
 
 // Event handler for the clear entry button
 void __fastcall TForm2::btnClearEntryClick(TObject *Sender)
@@ -170,7 +165,6 @@ void __fastcall TForm2::btnClearEntryClick(TObject *Sender)
 	x = "";
 	y = "";
 }
-//---------------------------------------------------------------------------
 
 // Event handler for the clear button
 void __fastcall TForm2::btnClearClick(TObject *Sender)
@@ -178,7 +172,6 @@ void __fastcall TForm2::btnClearClick(TObject *Sender)
 	// Clear the text box and set it to '0'
 	txtResult->Text = "0";
 }
-//---------------------------------------------------------------------------
 
 // Event handler for the plus-minus button
 void __fastcall TForm2::btnPlusMinusFunction(TObject *Sender)
@@ -187,4 +180,3 @@ void __fastcall TForm2::btnPlusMinusFunction(TObject *Sender)
 	Double b = (txtResult->Text.ToDouble());
 	txtResult->Text = (-1 * b);
 }
-//---------------------------------------------------------------------------
