@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
-  <Transactions>
-    <Transaction>2023/12/13 14:47:49.654,=C:\Users\HP\OneDrive\Documents\Embarcadero\Studio\Projects\Project2PCH1.h</Transaction>
-    <Transaction>2023/12/13 14:47:49.912,=C:\Users\HP\OneDrive\Documents\Embarcadero\Studio\Projects\Unit2.cpp</Transaction>
-    <Transaction>2023/12/13 15:37:42.667,D:\Projects.js\Project2PCH1.h=C:\Users\HP\OneDrive\Documents\Embarcadero\Studio\Projects\Project2PCH1.h</Transaction>
-    <Transaction>2023/12/13 15:37:43.042,D:\Projects.js\Unit2.h=C:\Users\HP\OneDrive\Documents\Embarcadero\Studio\Projects\Unit2.h</Transaction>
-    <Transaction>2023/12/13 15:37:43.042,D:\Projects.js\Unit2.cpp=C:\Users\HP\OneDrive\Documents\Embarcadero\Studio\Projects\Unit2.cpp</Transaction>
-    <Transaction>2023/12/13 15:37:43.042,D:\Projects.js\Unit2.dfm=C:\Users\HP\OneDrive\Documents\Embarcadero\Studio\Projects\Unit2.dfm</Transaction>
-    <Transaction>2023/12/13 15:37:43.087,D:\Projects.js\Project2.cbproj=C:\Users\HP\OneDrive\Documents\Embarcadero\Studio\Projects\Project2.cbproj</Transaction>
-    <Transaction>2023/12/13 15:38:18.977,D:\Projects.js\Calculator_Desktop_AppPCH1.h=D:\Projects.js\Project2PCH1.h</Transaction>
-    <Transaction>2023/12/13 15:38:18.991,D:\Projects.js\Calculator_Desktop_App.cbproj=D:\Projects.js\Project2.cbproj</Transaction>
-    <Transaction>2023/12/13 15:48:35.356,D:\Projects.js\Desktop_Calculator\Calculator_Desktop_AppPCH2.h=D:\Projects.js\Calculator_Desktop_AppPCH1.h</Transaction>
-    <Transaction>2023/12/13 15:48:35.389,D:\Projects.js\Desktop_Calculator\Calculator_Desktop_App.cbproj=D:\Projects.js\Calculator_Desktop_App.cbproj</Transaction>
-    <Transaction>2023/12/13 15:48:39.050,D:\Projects.js\Desktop_Calculator\Calculator_Desktop_App.cbproj=D:\Projects.js\Desktop_Calculator\Calculator_Desktop_App.cbproj</Transaction>
+	<Transactions>
+    <Transaction>2023/12/13 14:47:49.000.912,=C:\Users\HP\OneDrive\Documents\Embarcadero\Studio\Projects\Unit2.cpp</Transaction>
+    <Transaction>2023/12/13 14:47:49.000.654,=C:\Users\HP\OneDrive\Documents\Embarcadero\Studio\Projects\Project2PCH1.h</Transaction>
+    <Transaction>2023/12/13 15:37:42.000.667,C:\Users\HP\OneDrive\Documents\Embarcadero\Studio\Projects\Project2PCH1.h=D:\Projects.js\Project2PCH1.h</Transaction>
+    <Transaction>2023/12/13 15:37:43.000.042,C:\Users\HP\OneDrive\Documents\Embarcadero\Studio\Projects\Unit2.h=D:\Projects.js\Unit2.h</Transaction>
+    <Transaction>2023/12/13 15:37:43.000.087,C:\Users\HP\OneDrive\Documents\Embarcadero\Studio\Projects\Project2.cbproj=D:\Projects.js\Project2.cbproj</Transaction>
+    <Transaction>2023/12/13 15:37:43.000.042,C:\Users\HP\OneDrive\Documents\Embarcadero\Studio\Projects\Unit2.dfm=D:\Projects.js\Unit2.dfm</Transaction>
+    <Transaction>2023/12/13 15:37:43.000.042,C:\Users\HP\OneDrive\Documents\Embarcadero\Studio\Projects\Unit2.cpp=D:\Projects.js\Unit2.cpp</Transaction>
+    <Transaction>2023/12/13 15:38:18.000.991,D:\Projects.js\Project2.cbproj=D:\Projects.js\Calculator_Desktop_App.cbproj</Transaction>
+    <Transaction>2023/12/13 15:38:18.000.977,D:\Projects.js\Project2PCH1.h=D:\Projects.js\Calculator_Desktop_AppPCH1.h</Transaction>
+    <Transaction>2023/12/13 15:48:35.000.389,D:\Projects.js\Calculator_Desktop_App.cbproj=D:\Projects.js\Desktop_Calculator\Calculator_Desktop_App.cbproj</Transaction>
+    <Transaction>2023/12/13 15:48:35.000.356,D:\Projects.js\Calculator_Desktop_AppPCH1.h=D:\Projects.js\Desktop_Calculator\Calculator_Desktop_AppPCH2.h</Transaction>
+    <Transaction>2023/12/13 15:48:39.000.050,D:\Projects.js\Desktop_Calculator\Calculator_Desktop_App.cbproj=D:\Projects.js\Desktop_Calculator\Calculator_Desktop_App.cbproj</Transaction>
   </Transactions>
 </BorlandProject>
